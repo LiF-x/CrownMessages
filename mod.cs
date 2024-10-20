@@ -18,7 +18,7 @@ package LiFxCrownMessages {
     }
 
     function LiFxCrownMessages::version() {
-        return "1.0.0";
+        return "1.0.1";
     }
 
     function LiFxCrownMessages::MessageAllWithCustomText(%this, %resultSet) {
