@@ -1,14 +1,34 @@
 {
   "schemaVersion": 1,
   "id": "CrownMessages",
-  "name": "CrownMessages",
+  "name": "Crown Messages",
   "version": "1.0.1",
   "description": "Crown messages and kill feed system for more immersive RP-server gameplay.",
-  "authors": ["Christophe Roblin", "Warped Ibun"],
+  "authors": [
+    "Christophe Roblin",
+    "Warped Ibun"
+  ],
+  "source": {
+    "repo": "LiF-x/CrownMessages",
+    "commit": "b6d8c9bf36115a40646d73b21904709342b8e5d4"
+  },
+  "baseline": {
+    "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
+    "steamBuildId": "11261643"
+  },
+  "license": "GPL-3.0-only",
+  "distribution": "hostable",
+  "dependencies": [
+    "LiF-x/ServerAutoloader",
+    "LiF-x/ServerUtility"
+  ],
   "loadOrderHint": 100,
   "files": {
     "overlay": [
-      { "src": "mod.cs", "dest": "mods/CrownMessages/mod.cs" }
+      {
+        "src": "mod.cs",
+        "dest": "mods/CrownMessages/mod.cs"
+      }
     ],
     "dataPatches": []
   }
